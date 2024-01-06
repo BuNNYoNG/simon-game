@@ -1,0 +1,137 @@
+<mxfile host="Electron" modified="2024-01-05T11:34:49.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="naHQ0DORoK-LrGB1IJJE" version="22.1.16" type="device">
+  <diagram name="Page-1" id="dZx2cyuo7W1VnlyJ_YMO">
+    <mxGraphModel dx="2655" dy="2287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NeiSNoncOytatpk8YId0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-1" target="NeiSNoncOytatpk8YId0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-2" target="NeiSNoncOytatpk8YId0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-2" value="display game start" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-4" target="NeiSNoncOytatpk8YId0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-4" target="NeiSNoncOytatpk8YId0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-4" value="user click any key?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-6" target="NeiSNoncOytatpk8YId0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-6" value="Do Nothing" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-8" target="NeiSNoncOytatpk8YId0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Start nextSequence()&lt;/span&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Change h1 to &quot;Level n&quot;&lt;/li&gt;&lt;li&gt;Random number 0-3&lt;/li&gt;&lt;li&gt;User random number to select the array color in buttonColor variable&lt;/li&gt;&lt;li&gt;Push the selected color into gamePattern array&lt;/li&gt;&lt;li&gt;Play sound designated for that color&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-11" target="NeiSNoncOytatpk8YId0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-11" value="&lt;h1&gt;Event listening&lt;/h1&gt;&lt;p&gt;trigger when the user pressed any key on the keyboard&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-18" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-15" target="NeiSNoncOytatpk8YId0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-15" target="NeiSNoncOytatpk8YId0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-15" value="user click the button?" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-17" target="NeiSNoncOytatpk8YId0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-17" value="Do Nothing" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-20" target="NeiSNoncOytatpk8YId0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-20" value="&lt;ol&gt;&lt;li&gt;Collect the button ID that user click&lt;/li&gt;&lt;li&gt;Push the ID into userClickedPattern array&lt;br&gt;&lt;/li&gt;&lt;li&gt;Play playSound() and animatePressed()&lt;/li&gt;&lt;li&gt;Run checkAnswer()&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="430" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-22" target="NeiSNoncOytatpk8YId0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-22" value="checkAnswer():&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Check the current ID button from user is match with the value of the coresponding position of gamePattern array&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-29" value="pass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-24" target="NeiSNoncOytatpk8YId0-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-37" value="fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-24" target="NeiSNoncOytatpk8YId0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-24" value="result?" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-31" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-28" target="NeiSNoncOytatpk8YId0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-33" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-28" target="NeiSNoncOytatpk8YId0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-28" value="more key to press?" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-30" target="NeiSNoncOytatpk8YId0-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="650" />
+              <mxPoint x="-240" y="200" />
+              <mxPoint x="120" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-30" value="wait for the user to click next button" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-32" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;level +1&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Set setTimeout for 1 second before runnning nextSequence()&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="780" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.333;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-32" target="NeiSNoncOytatpk8YId0-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-280" y="810" />
+              <mxPoint x="-280" y="170" />
+              <mxPoint x="400" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-36" target="NeiSNoncOytatpk8YId0-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="320" />
+              <mxPoint x="800" y="320" />
+              <mxPoint x="800" />
+              <mxPoint x="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-36" value="&lt;ol&gt;&lt;li&gt;Flash red background&lt;/li&gt;&lt;li&gt;Play wrong.mp3 audio&lt;/li&gt;&lt;li&gt;Change h1 to &quot;Game Over, press Any Key to Restart&quot;&lt;/li&gt;&lt;li&gt;Reset gamePattern array&lt;/li&gt;&lt;li&gt;Reset level variable&lt;/li&gt;&lt;li&gt;Reset userClickedPattern array&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeiSNoncOytatpk8YId0-39" target="NeiSNoncOytatpk8YId0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeiSNoncOytatpk8YId0-39" value="&lt;h1&gt;Event listening&lt;/h1&gt;&lt;p&gt;trigger when the user click the button on the web&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="400" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
